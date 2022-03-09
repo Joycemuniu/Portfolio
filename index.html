@@ -19,7 +19,7 @@
 
 
        <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"id="navbar">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,9 +39,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contacts</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+            
               
           </div>
         </div>
@@ -54,26 +52,27 @@
     <div class="container mb-5">
      <div class="row">
          <div class="col-md-6">
-             <h3 class="display-1 fw-bold">WEB DEVELOPER</h3>
-             <h1>I'M JOYCE <br> MUNIU</h1>
+             
+             <h1 class="display-1 fw-bold">I'M JOYCE <br> MUNIU</h1>
+             <h3>Programming Student</h3>
              <div class="button">
-                  <button class="btn"></button>
-                  <button class="btn">About</button>
+                  <!-- <button class="btn"></button>
+                  <button class="btn">About</button> -->
 
 
 
              </div>
-         <div class="col-md-6">
+         <div class="col-md-6 ms-auto">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="/images/20201227_161001.jpg" class="d-block w-100" alt="..." height="500px" width="400px" >
+                    <img src="/images/20201227_161001.jpg" class="d-block w-100" alt="..." height="500px" width="500px" >
                   </div>
                   <div class="carousel-item">
-                    <img src="/images/20201101_132350.jpg" class="d-block w-100" alt="..." height="500px" width="400px">
+                    <img src="/images/20201101_132350.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
                   </div>
                   <div class="carousel-item">
-                    <img src="/images/IMG-20201205-WA0076.jpg" class="d-block w-100" alt="..." height="500px" width="400px">
+                    <img src="/images/IMG-20201205-WA0076.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
                   </div>
                 </div>
               </div>
@@ -111,69 +110,131 @@
                       <button class="btn btn-warning text-white px-5 py-2">contact"</button>
 
                   </div>
-
-              </div>
-
-
-          </div>
-
-      </div>
-
-  </section>
+                </div>
+             </div>
+        </div>
+   </section>
 
   <!-- My projects -->
-
-
-  <section id="Jarem-Enterprises">
-    <div></div>
-    <div class="container ">
-        <div class="row">
-            <div class="col-4">
-              <div class="card" style="width: 18rem;">
-                <img src="/images/image21.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3>My Projects</h3>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <section id="projects">
+        <div class="container">
+            <h1 class="text-center">My Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Jarem Enterprises</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
                 </div>
-              </div>
-              </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">H.L.B Project</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
 
-
-
-  <!-- contact section -->
-  <section id="contact">
-      <div class="container my-5 bg-promary">
-          <div class="row mb-5">
-              <div class="col-12">
-                  <h1 class="fw-bold text-center">contact</h1>
-                  <hr>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">A Simple Calculator</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
                 </div>
             </div>
-          <div class="row">
-              <div class="col-md-6 mx-auto">
-                  <form action="">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Elizbeth Wanjiru">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                        <button type="submit" class="btn btn-outline warning">Send Message</button>
-                      </div>
-                  </form>
 
-              </div>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">A Clock</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
 
-          </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Counter</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
 
-      </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Glee Musical Theatre</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
 
-  </section>
+
+          
+<!-- 
+   contact Section -->
+   <section id="contact"> 
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <hr>
+
+             <div class="row mt-4">
+                <div class="col-lg-6"> 
+                
+                </div>
+
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder=" Full Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email Address">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                
+
+            </div>
+            </div>
+        </div>
+    </section>
+         
+  
+ </section> 
+
+                              
+
+
+         
+
+
 
 
    
