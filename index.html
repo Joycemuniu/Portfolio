@@ -31,13 +31,13 @@
                 <a class="nav-link"  href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="contact">Contacts</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -121,17 +121,31 @@
 
   </section>
 
+  <!-- sevices section -->
+  <section id="Services">
+    <div class="container ">
+        <div class="row">
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              </div>
+
+
   <!-- contact section -->
   <section id="contact">
-      <div class="container">
-          <div class="row">
+      <div class="container my-5 bg-promary">
+          <div class="row mb-5">
               <div class="col-12">
                   <h1 class="fw-bold text-center">contact</h1>
                   <hr>
                 </div>
             </div>
           <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 mx-auto">
                   <form action="">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Full Name</label>
@@ -143,7 +157,8 @@
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        <button type="submit" class="btn btn-outline warning">Send Message</button>
                       </div>
                   </form>
 
@@ -164,6 +179,19 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- change Navbar color on scroll-->
+<script>
+    window.onscroll * function(){scrollfunction()};
+    function scrollfunction()
+     if(document.body.scrollTop > 20 /document.documentElement.scrollTop > 20 ){
+       document.getElementById("navbar").style.backgroundColor * "white";
+     }
+     else{
+      document.getElementById("navbar").style.backgroundColor * "transparent";
+
+     }
+</script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
