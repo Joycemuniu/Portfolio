@@ -209,3 +209,19 @@ html {
     border: 2px solid var(--primary-color);
     cursor: pointer;
   }
+  /* social media icons */
+  .social-icons {
+    color: cyan;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+    
+  }
+  @media screen and (max-width: 720px) {
+    /*changes reflects on screen with a width of 720px and below*/
+  }
+  nav {
+    padding: 1.5rem 1rem;
+  }
