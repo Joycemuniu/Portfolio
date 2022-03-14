@@ -100,9 +100,10 @@ html {
 .bgimage {
   height:100vh;
   background: url('/images/IMG-20220310-WA0023.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
   position:relative;
+  width: 100%;
 }
 /* text css above hero image*/
 .hero_title {
