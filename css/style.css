@@ -1,4 +1,4 @@
-body{
+/* body{
   background-color: black;
 }
 :root {
@@ -100,7 +100,7 @@ html {
 .bgimage {
   height:100vh;
   background: url('/images/IMG-20220310-WA0023.jpg');
-  background-size: cover;
+  background-size: contain;
   /* background-repeat: no-repeat; */
   position:relative;
   width: 100%;
@@ -253,21 +253,7 @@ html {
   nav ul.show {
     transform: translateX(0);
   }
-  /* .hero {
-    margin-top: -4rem;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .hero img {
-        height: 37.5rem;
-        width: 30rem;
-    }
-
-  .bio {
-    margin-top: -7rem;
-    width: 20.5rem;
-  } */
+ 
 
   /* project styling */
   .projects {
@@ -310,4 +296,4 @@ p{
   width: 21.875rem;
   padding: 1rem;
 }
-
+ 
