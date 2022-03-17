@@ -1,4 +1,4 @@
-/* body{
+ body{
   background-color: black;
 }
 :root {
@@ -32,7 +32,7 @@ html {
   }
   
   /* CSS Resets */
-  * {
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -94,31 +94,68 @@ html {
     background-color: transparent;
     cursor: pointer;
     display: none; 
-  }
+  } 
  
-  /* hero background image */
-.bgimage {
-  height:100vh;
-  background: url('/images/IMG-20220310-WA0023.jpg');
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  position:relative;
-  width: 100%;
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-/* text css above hero image*/
-.hero_title {
-  font-size: 4.5rem;
+.max-width{
+  max-width: 1300px;
+  padding: 0, 80px;
+  margin: auto; 
 }
-.hero_desc {
-  font-size: 2rem;
+ 
+/*menu-btn styling*/
+ .menu-btn{
+  color: wheat;
+  font-size: 23px;
+  cursor: pointer;
+  display:none; 
 }
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/*home styling*/
+.home{
+  display: flex;
+  background: url(/images/IMG-20220310-WA0023.jpg) no-repeat center;
+  height: 100vh;
   color: white;
+  min-height: 500px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 27px;
+}
+.home .home-content .text-2{
+  font-size: 27px;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.home .home-content .text-3{
+  font-size: 27px;
+  font-size: 40px;
+  margin: 5px 0;
+
+}
+.home .home-content .text-3 span{
+  color: crimson;
+  font-weight: 500;
+}
+/*reaponsive media query*/
+@media (max-width:991px){
+  .max-width{
+      padding:0 50px;
+  }
+  .nabar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background: black;
+
+  }
 }
 
 
