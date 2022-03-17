@@ -1,6 +1,6 @@
  body{
-  background: rgb(79,54,65);
-background: radial-gradient(circle, rgba(79,54,65,1) 0%, rgba(36,64,64,1) 100%);
+  background: rgb(99,180,58);
+  background: linear-gradient(90deg, rgba(99,180,58,1) 20%, rgba(253,29,29,1) 82%, rgba(252,176,69,1) 100%);
  }
 :root {
     --variable-name: value;
@@ -17,11 +17,6 @@ background: radial-gradient(circle, rgba(79,54,65,1) 0%, rgba(36,64,64,1) 100%);
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -98,7 +93,7 @@ html {
   } 
  
 
- *{
+*{
   margin: 0;
   padding:0;
   box-sizing: border-box;
@@ -108,28 +103,26 @@ html {
   max-width: 1300px;
   padding: 0, 80px;
   margin: auto; 
-} 
+}
  
 /*menu-btn styling*/
- /* .menu-btn{
+ .menu-btn{
   color: wheat;
   font-size: 23px;
   cursor: pointer;
   display:none; 
-} */
+}
 /*home styling*/
 .home{
   display: flex;
   background: url(/images/IMG-20201205-WA0076.jpg) no-repeat center;
   height: 100vh;
-  color:coral;
+  color: white;
   min-height: 500px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 27px;
-  
 }
 .home .home-content .text-2{
-  color: white;
   font-size: 27px;
   font-size: 75px;
   font-weight: 600;
@@ -145,7 +138,21 @@ html {
   color: black;
   font-weight: 500;
 }
+/*reaponsive media query*/
+@media (max-width:991px){
+  .max-width{
+      padding:0 50px;
+  }
+  .nabar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background: black;
 
+  }
+}
 
 
 /* about section image css */
@@ -166,16 +173,11 @@ html {
   }
   
   .contact-form-container {
-    background-color: transparent;
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
-  }
-  .contact-form-container:hover{
-    transform: scaleX(1.1);
-    box-shadow: 1px 2px 10px black;
   }
   .contact {
     margin-top: 2rem;
@@ -187,7 +189,6 @@ html {
   }
   
   .contact-form-container {
-   
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
@@ -201,13 +202,11 @@ html {
   }
   
   .contact-form-container textarea {
-   
     min-height: 6.25rem;
     font-size: 14px;
   }
   
   .contact-form-container .input-field {
-    
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -223,18 +222,16 @@ html {
   transition: all 0.5s ease;
 }
 .card img{
-  background-color: transparent;
   height: 100px;
   width: 100px;
   margin: auto;
-
 }.card:hover{
   transform: scaleX(1.1);
   box-shadow: 1px 2px 10px black;
 }
   .input-field::placeholder {
     padding: 0.5rem;
-    color: transparent;
+    color: var(--primary-color);
   }
   .submit-btn {
     width: 100%;
@@ -294,7 +291,7 @@ html {
 
   /* project styling */
   .projects {
-    background-color: rgb(241, 97, 97);
+    background-color: black;
     padding: 32px 0;
     margin-top: 2rem;
   }
@@ -315,26 +312,25 @@ html {
   margin-bottom: 1rem;
 }
 h4{
-  color:orange;
+  color: coral;
 
 }
 h1{
-  color: coral;
+  color: black;
 }
 h2{
-  color: coral;
+  color: black ;
 }
 p{
-  color:white;
-}hr{
-  color: beige;
+  color: white;
 }
-
+hr{
+  color: black;
+}
 
 .project-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
 }
-
  
