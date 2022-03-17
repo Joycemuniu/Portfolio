@@ -1,6 +1,6 @@
  body{
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: rgb(79,54,65);
+background: radial-gradient(circle, rgba(79,54,65,1) 0%, rgba(36,64,64,1) 100%);
  }
 :root {
     --variable-name: value;
@@ -98,7 +98,7 @@ html {
   } 
  
 
-*{
+ *{
   margin: 0;
   padding:0;
   box-sizing: border-box;
@@ -108,27 +108,28 @@ html {
   max-width: 1300px;
   padding: 0, 80px;
   margin: auto; 
-}
+} 
  
 /*menu-btn styling*/
- .menu-btn{
+ /* .menu-btn{
   color: wheat;
   font-size: 23px;
   cursor: pointer;
   display:none; 
-}
+} */
 /*home styling*/
 .home{
   display: flex;
-  background: url(/images/IMG-20220310-WA0023.jpg) no-repeat center;
+  background: url(/images/IMG-20201205-WA0076.jpg) no-repeat center;
   height: 100vh;
-  color: white;
+  color:coral;
   min-height: 500px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 27px;
   
 }
 .home .home-content .text-2{
+  color: white;
   font-size: 27px;
   font-size: 75px;
   font-weight: 600;
@@ -144,21 +145,7 @@ html {
   color: black;
   font-weight: 500;
 }
-/*reaponsive media query*/
-@media (max-width:991px){
-  .max-width{
-      padding:0 50px;
-  }
-  .nabar .menu{
-      position: fixed;
-      height: 100vh;
-      width: 100%;
-      left: 0;
-      top: 0;
-      background: black;
 
-  }
-}
 
 
 /* about section image css */
@@ -328,22 +315,26 @@ html {
   margin-bottom: 1rem;
 }
 h4{
-  color:cornflowerblue;
+  color:orange;
 
 }
 h1{
-  color: rgb(230, 113, 136);
+  color: coral;
 }
 h2{
-  color: rgb(230, 113, 136);
+  color: coral;
 }
 p{
   color:white;
+}hr{
+  color: beige;
 }
+
 
 .project-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
 }
+
  
